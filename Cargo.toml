@@ -4,3 +4,11 @@ version = "0.1.0"
 authors = ["Mike Tang <miketang84@outlook.com>"]
 
 [dependencies]
+log = "0.3"
+env_logger = "0.3"
+
+[dependencies.coio]
+git = "https://github.com/zonyitoo/coio-rs.git"
+
+[dependencies.http-muncher]
+git = "https://github.com/nbaksalyar/rust-streaming-http-parser"
